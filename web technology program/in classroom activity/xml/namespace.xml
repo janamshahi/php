@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<catalog xmlns:tech='http://example.com/Technology' xmlns:mng='http://example.com/Management'>
+
+	<tech:book>
+		<title>AI</title>
+		<author>janam </author>
+	</tech:book>
+
+	<mng:book>
+		<title>Finance</title>
+		<author>binod das</author>
+	</mng:book>
+
+</catalog>

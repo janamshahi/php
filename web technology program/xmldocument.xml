@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<students>
+ <student>
+    <name>John Doe</name>
+    <address>123 Main St, New York, NY</address>
+    <email>john.doe@example.com</email>
+    <dob>2000-01-15</dob>
+  </student>
+  
+  <student>
+    <name>Jane Smith</name>
+    <address>456 Oak Ave, Los Angeles, CA</address>
+    <email>jane.smith@example.com</email>
+    <dob>1999-11-30</dob>
+  </student>
+
+  <student>
+    <name>Michael Lee</name>
+    <address>789 Pine Rd, Chicago, IL</address>
+    <email>michael.lee@example.com</email>
+    <dob>2001-05-10</dob>
+  </student>
+
+  <student>
+    <name>Emily Johnson</name>
+    <address>321 Maple Dr, Houston, TX</address>
+    <email>emily.johnson@example.com</email>
+    <dob>2002-07-25</dob>
+  </student>
+  </students>

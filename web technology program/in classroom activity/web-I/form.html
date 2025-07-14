@@ -1,0 +1,48 @@
+
+<html>
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Student Form</legend>
+		<label for="Name">Name</label>
+		<input type="text" name="uname" placeholder="Enter your Name"> <br> <br>
+
+		<label for="email">Email</label>
+		<input type="email" name="uemail" placeholder="Enter your email"> <br> <br>
+
+		<label for="phone">Phone</label>
+		<input type="number" name="uphone" placeholder="Enter your Phone number" maxlength="10"> <br><br>
+
+		<label for="gender">Gender</label>
+		<input type="radio" name="ugender" value="male"> Male
+		<input type="radio" name="ugender" value="female"> Female
+		<br><br>
+		<label for="Country">Country</label>
+		<select name="ucountry">
+			<option>Choose Any one</option>
+			<option value="nepal">Nepal</option>
+			<option value="usa">Usa</option>
+			<option value="india">India</option>
+		</select>
+		<br><br>
+
+		<label for="Hobby">Hobby</label>
+		<input type="checkbox" name="hobby" value="sport"> Sport
+		<input type="checkbox" name="hobby" value="Movie"> Movie
+		<input type="checkbox" name="hobby" value="Travel"> Travel
+
+		<br> <br>
+		<label for="Summary">Summary</label>
+		<textarea name="summary" cols="10" rows="5"></textarea>
+		<br><br>
+
+		<label for="file">File</label>
+		<input type="file" name="ufile" multiple>
+		<br><br>
+
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+		</fieldset>
+	</form>
+</body>
+</html>

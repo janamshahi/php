@@ -1,0 +1,17 @@
+<html>
+<body>
+	<form name="form1">
+		Name: <input type="text" name="name">
+		<br><br>
+		<input type="submit" onclick="demo()">
+	</form>
+
+	<script type="text/javascript">
+		function demo()
+		{
+			var data = document.form1.name.value;
+			alert("My name is "+ data);
+		}
+	</script>
+</body>
+</html>

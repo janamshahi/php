@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>jQuery Hide/Show Example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+.hide {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+
+<button id="hideButton">Hide</button>
+<button id="showButton">Show</button>
+
+<div class="hide">Div 1 to hide/show</div>
+<div class="hide">Div 2 to hide/show</div>
+<div class="hide">Div 3 to hide/show</div>
+
+<script>
+$(document).ready(function(){
+  $("#hideButton").click(function(){
+    $(".hide").hide();
+  });
+
+  $("#showButton").click(function(){
+    $(".hide").show();
+  });
+});
+</script>
+
+</body>
+</html>

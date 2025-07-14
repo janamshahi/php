@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <input type="button" onclick="setCookie()" value="setCookie">
+        <br><br>
+        <input type="button" onclick="getCookie()" value="getCookie">
+        <script>
+            function setCookie()
+            {
+                document.cookie = "name=John harish,address=dhangadhi";
+                document.cookie = "name=John harish,address=dhangadhi;expires=wed, 26 march 2025 07:00:00 UTC";
+            }
+
+            function getCookie()
+            {
+                if(document.cookie.length != 0)
+                {
+                    alert(document.cookie);
+                }else{
+                    alert("cookie not set");
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<body>
+<form action="abc.html" method="post" onsubmit="return demo()">
+<label>Email:</label>
+<input type="email" name="email" id="f1">
+<br><br>
+<label>Phone:</label>
+<input type="text" name="phone" id="f2">
+<br><br>
+<label>Password</label>
+<input type="password" name="pw" id="f3">
+<br><br>
+<label>Confirm Password</label>
+<input type="password" name="cpw" id="f4">
+<br><br>
+<input type="submit" name="submit">
+</form>
+<script type="text/javascript">
+function demo()
+{
+var a = document.getElementById('f1').value;
+var b = document.getElementById('f2').value;
+var c = document.getElementById('f3').value;
+var d = document.getElementById('f4').value;
+if (a == '' || b == '' || c == '' || d == '') // required all fields
+{
+alert('all input field are required');
+return false;
+}
+else if( b.length < 10 || b.length > 10 ) // phone number required 10 digits
+{
+alert('please enter 10 digits of phone number');
+return false;
+}
+else if(isNaN(b)) // phone number should be numeric
+{
+alert('Please enter only numeric value');
+return false;
+}
+else if(c != d)                     // password and confirm password should be equal to
+{
+alert('please enter same value of password and confirm password');
+return false;
+}
+else
+{
+return true;
+}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

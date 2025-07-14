@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Student Registration/application Form</title>
+</head>
+        
+<body bgcolor="yellow">
+
+          <div style="margin: auto;width: 68%;">
+          <form>
+             <h2>Student Registration/application Form</h2>
+             <p>Fill in this form to apply</p>
+             <br>
+             
+             <label><b>First Name</b></label> 
+             <input type="text" placeholder="Enter your first name" name="first_name" required>
+             <br>
+             
+             <br>
+             <label><b>Last Name</b></label>
+             <input type="text" placeholder="Enter your last name" name="last_name" required>
+             <br>
+             <br>
+             <label><b>E-mail</b></label>
+             <input type="email" placeholder="Enter your e-mail" name="email" required>
+             <br>
+             <br>
+             <label><b>Date of Birth</b></label>
+             <input type="date" name="dob" required>
+             <br>
+             <br>
+             <label><b>Set Username</b></label>
+             <input type="text" placeholder="Set Username" name="username" required>
+             <br>
+             <br>
+             <label><b>Set Password</b></label>
+             <input type="password" placeholder="Set password" name="password" required>
+             <br>
+             
+             <br>
+             <label><b>Gender</b></label><br>
+             <input type="radio" name="gender" value="Male">
+             <label for="Male">Male</label><br>
+             <input type="radio" name="gender" value="Female">
+             <label for="Female">Female</label><br>
+             <input type="radio" name="gender" value="Others">
+             <label for="Others">Others</label>
+             <br>
+              
+            <br>
+            <label><b>Course :</b></label>   
+                 <select>
+                       <option value="Course">Course</option>    
+                       <option value="CS">Computer Fundamentals</option>  
+                       <option value="AI">Artificial Intelligence</option>  
+                       <option value="ML">Machine Learning</option>  
+                       <option value="OOPS">Object Oriented Programming</option>  
+                       <option value="DBMS">Database Management System</option>   
+                 </select>
+           <br>
+           <br>
+           <input type="button" value="Register"/> 
+          </form>
+     </div>
+</body>
+</html>
+
+
+
+
+
+<br>
+
+
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <title>Job Application Form</title>  
+    <style>  
+        * {  
+            margin: 0;  
+            padding: 0;  
+            box-sizing: border-box;  
+        }  
+        body {  
+            background: rgb(206, 217, 216);  
+        }  
+  
+        .container {  
+            max-width: 850px;  
+            margin: 0 auto;  
+        }  
+  
+        .case {  
+            margin: 0 auto;  
+            max-width: 650px;  
+            padding: 18px;  
+            background-color: rgb(11, 210, 190);  
+            border-radius: 9px;  
+            box-shadow: 6px 5px 9px rgb(137, 203, 196);  
+            margin-top: 60px;  
+        }  
+  
+        .form-case {  
+            display: grid;  
+            margin: 2px;  
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));  
+            gap: 18px;  
+        }  
+        .form-control {  
+            display: flex;  
+            flex-direction: column;  
+        }  
+        label {  
+            margin-bottom: 4px;  
+            font-size: 18px;  
+        }  
+        input, select, textarea {  
+            padding: 8px 12px;  
+            font-size: 15px;  
+            border-radius: 5px;  
+            border: 1px solid black;  
+        }  
+        input:focus {  
+            outline-color: rgb(133, 175, 175);  
+        }  
+        .submit {  
+            display: flex;  
+            justify-content: flex-end;  
+            margin-top: 20px;  
+        }  
+        button {  
+            background-color: rgb(115, 181, 174);  
+            border: transparent solid 5px;  
+            padding: 6px 10px;  
+            color: white;  
+            border-radius: 8px;  
+            transition: 0.2s ease-in;  
+        }  
+        button:hover {  
+            padding: 6px 15px;  
+            background-color: rgb(3, 104, 94);  
+            border: 2px solid rgb(222, 200, 200);  
+            color: white;  
+            transition: o.2s ease-out;  
+            cursor: pointer;  
+  
+        }  
+        .textarea-control {  
+            grid-column: 1 / span 2;  
+        }  
+        .textarea-control textarea {  
+            width: 100%;  
+        }  
+        @media(max-width: 475px) {  
+            .textarea-control{  
+            grid-column: 1 / span 1;  
+        }   
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <div class="case">  
+            <h1> Job Application Form</h1>  
+            <form action="">  
+                <div class="form-case">  
+                    <div class="form-control">  
+                        <label for="first-name">First Name:</label>  
+                        <input id="first-name" name="first-name" placeholder="Enter your first name">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="last-name">Last Name:</label>  
+                        <input id="last-name" name="last-name" placeholder="Enter your last name">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="email">Email:</label>  
+                        <input type="email" id="email" name="email" placeholder="Enter your email">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="job-role">Job Role:</label>  
+                        <select id="job-role" name="job-role">  
+                            <option value="">Select Your Job Role</option>  
+                            <option value="senior-business-analyst">Senior Business Analyst</option>  
+                            <option value="full-stack-developer">Full Stack Developer</option>  
+                            <option value="research-analyst">Research Analyst</option>  
+                            <option value="backend-developer">Backend Developer</option>  
+                            <option value="quality-assurance-inspector">Quality Assurance Inspector</option>  
+                            <option value="php-developer">PHP Developer</option>  
+                        </select>  
+  
+                    </div>  
+                    <div class="textarea-control">  
+                        <label for="address">Address</label>  
+                        <textarea name="address" id="address" cols="50" row="4" placeholder="Enter your address"></textarea>  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="city">City:</label>  
+                        <input id="city" name="city" placeholder="Enter your city name">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="pincode">Pincode:</label>  
+                        <input type="number" id="pincode" name="pincode" placeholder="Enter Pincode">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="date">Date:</label>  
+                        <input type="date" id="date" name="date">  
+  
+                    </div>  
+                    <div class="form-control">  
+                        <label for="upload">Upload your CV:</label>  
+                        <input type="file" id="upload" name="upload">  
+  
+                    </div>  
+                </div>  
+                <div class="submit">  
+                    <button type="submit">Apply Now</button>  
+                </div>  
+            </form>  
+        </div>  
+    </div>  
+</body>  
+</html>  

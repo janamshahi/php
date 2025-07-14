@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book SYSTEM "info.dtd">
+
+<book>
+	<name>Web-Technology</name>
+	<author>Ram magar</author>
+	<year>2022-01-12</year>
+	<price>1002</price>
+</book>

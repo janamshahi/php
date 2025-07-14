@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding='UTF-8'?>
+<school>
+	<student category='IT'>
+		<name>hari</name>
+		<address>DHN</address>
+		<age>20</age>
+	</student>
+	<student category='Management'>
+		<name>SK</name>
+		<address>KTM</address>
+		<age>25</age>
+	</student>
+	<student category='Engineering'>
+		<name>kalu</name>
+		<address>MNR</address>
+		<age>50</age>
+	</student>
+</school> 

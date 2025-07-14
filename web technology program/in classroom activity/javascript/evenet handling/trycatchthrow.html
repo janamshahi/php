@@ -1,0 +1,22 @@
+<html>
+<body>
+	<script type="text/javascript">
+		function checkAge(age)
+		{
+			if (age < 20) {
+				throw new Error("You are not eligible for marry" + "<br>");
+			}else{
+				document.write('Access granted....' + "<br>");
+			}
+		}
+
+		try{
+			checkAge(45);
+		}catch(error){
+			document.write(error.message);
+		}finally{
+			document.write("when marry");
+		}
+	</script>
+</body>
+</html>

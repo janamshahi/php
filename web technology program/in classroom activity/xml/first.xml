@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore>
+	<book category='Management'>
+		<title>computer</title>
+		<author>hari saud</author>
+		<year>2025</year>
+		<price>1200</price>
+	</book>
+	<book category='IT'>
+		<title>Web-Technology</title>
+		<author>janam shahi</author>
+		<year>2024</year>
+		<price>1000</price>
+	</book>
+</bookstore>
